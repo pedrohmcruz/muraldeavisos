@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #181e2f;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  color: #343635;
+}
+
+.inputsAndBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-title,
+.input-description {
+  border: 1px;
+}
+
+.input-title,
+.input-description,
+.btn-SendRequest {
+  padding: 8px;
+  font-size: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.input-title:focus,
+.input-description:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.btn-SendRequest {
+  border: 0;
+  background-color: #555a6e;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-SendRequest:hover {
+  border: 0;
+  background-color: #272d3f;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-SendRequest:not(:hover) {
+  transition: 0.3s;
+}
+
+#posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+  flex-direction: column;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+}
+
+.card-header, .card-body {
+  border: 1px solid #414257;
+  padding: 5px;
+  width: 700px;
+}
+
+.card-header {
+  border-bottom: none;
+  background-color: #272d3f;
+}
+
+.card-body {
+  background-color: #373c4f;
+  margin-bottom: 28px;
+}
+
+.card-text, .card-title {
+  padding: 5px;
+}
+
+.card-title {
+  font-size: 22px;
+}
+
+.card-text {
+  font-size: 17px;
+}
+
+.card-text, .card-title {
+  color: white;
+}
